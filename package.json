@@ -1,0 +1,38 @@
+{
+  "name": "jm-bigcommerce-price-helper",
+  "version": "0.0.1",
+  "description": "jm-bigcommerce-price-helper",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha test/*.js - - -R spec",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuanndjm/jm-bigcommerce-price-helper.git"
+  },
+  "keywords": [
+    "jm-bigcommerce-price-helper"
+  ],
+  "author": "Tuan Nguyen <tuan.nguyen@jmango360.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tuanndjm/jm-bigcommerce-price-helper/issues"
+  },
+  "homepage": "https://github.com/tuanndjm/jm-bigcommerce-price-helper#readme",
+  "devDependencies": {
+    "@types/intl": "1.2.0",
+    "chai": "4.2.0",
+    "coveralls": "3.0.9",
+    "firebase-functions-test": "0.1.7",
+    "istanbul": "0.4.5",
+    "mocha": "6.2.2",
+    "typescript": "3.7.3"
+  },
+  "dependencies": {
+    "intl": "1.2.5",
+    "lodash": "4.17.15"
+  }
+}
