@@ -28,7 +28,7 @@
     "coveralls": "3.0.9",
     "firebase-functions-test": "0.1.7",
     "istanbul": "0.4.5",
-    "mocha": "6.2.2",
+    "mocha": "10.2.0",
     "typescript": "3.7.3"
   },
   "dependencies": {
